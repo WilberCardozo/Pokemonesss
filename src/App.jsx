@@ -1,20 +1,20 @@
 
 import React from 'react';
 import './App.css';
-import Warturtle from './assets/Warturtle.jpg'; 
-import Corsola from './assets/Corsola.jpg'; 
-import Gimmighoul from './assets/Gimmighoul.jpg';
-import Skelerdirge from './assets/Skelerdirge.jpg';
-import Terapagos from './assets/Terapagos.jpg';
-import Venusaur from './assets/Venusaur.jpg';
+import eevee from './assets/eevee.png'; 
+import flareon from './assets/flareon.png'; 
+import vaporeon from './assets/vaporeon.png';
+import jolteon from './assets/jolteon.png';
+import umbreon from './assets/umbreon.png';
+import espeon from './assets/espeon.png';
 
 const pokemonImages = [
-  { id: 1, src: Warturtle, name: 'Warturtle' },
-  { id: 2, src: Corsola, name: 'Corsola' },
-  { id: 3, src: Gimmighoul, name: 'Gimmighoul' },
-  { id: 4, src: Skelerdirge, name: 'Skelerdirge' },
-  { id: 5, src: Terapagos, name: 'Terapagos' },
-  { id: 6, src: Venusaur, name: 'Venusaur' },
+  { id: 1, src: eevee, name: 'Eevee' },
+  { id: 2, src: flareon, name: 'Flareon' },
+  { id: 3, src: vaporeon, name: 'Vaporeon' },
+  { id: 4, src: jolteon, name: 'Jolteon' },
+  { id: 5, src: umbreon, name: 'Umbreon' },
+  { id: 6, src: espeon, name: 'Espeon' },
 ];
 
 const App = () => {
