@@ -8,8 +8,8 @@ body {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Tres columnas */
-  gap: 16px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 56px;
   justify-items: center;
 }
 
@@ -20,12 +20,11 @@ body {
 }
 
 .gallery-item img {
-  width: 150px; /* Ajusta el ancho de las imágenes */
-  height: 150px; /* Ajusta la altura de las imágenes */
-  object-fit: cover; /* Asegura que la imagen cubra el área establecida sin distorsionarse */
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 120px; 
+  height: 120px; 
+  object-fit: cover; 
+  border: 10px solid #ffffff;
+  border-radius: 15px;
 }
 
 .gallery-item p {
